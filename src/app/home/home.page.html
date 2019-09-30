@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>cep</ion-label>
+    <ion-input type='text' name='cep'[(ngModel)]= "endereco.cep"(ionBlur)= "preencher()"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>logradouro</ion-label>
+    <ion-input type='text' name='logradouro'[(ngModel)]= "endereco.logradouro"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>complemento</ion-label>
+    <ion-input type='text' name='complemento'[(ngModel)]= "endereco.complemento"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>bairro</ion-label>
+    <ion-input type='text' name='bairro'[(ngModel)]= "endereco.bairro"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>localidade</ion-label>
+    <ion-input type='text' name='localidade'[(ngModel)]= "endereco.localidade"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>uf</ion-label>
+    <ion-input type='text' name='uf'[(ngModel)]= "endereco.uf"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>unidade</ion-label>
+    <ion-input type='text' name='unidade'[(ngModel)]= "endereco.unidade"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>ibge</ion-label>
+    <ion-input type='text' name='ibge'[(ngModel)]= "endereco.ibge"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>gia</ion-label>
+    <ion-input type='text' name='gia'[(ngModel)]= "endereco.gia"></ion-input>
+  </ion-item>
+</ion-content>
